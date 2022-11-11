@@ -25,14 +25,25 @@ In order to do this, we will use :
 - Kafka to use pipeline and handle the recommendation system storage
 - Docker to handle the containers of the microservices, database and modules
 
-## 👨‍💻 Development management
+## 👨‍💻 Development
 
 Each git repository will have 3 main branches :
  - dev : used for the development
  - staging : used to test the last version of the application
  - prod : used for the deployment of the application (released version)
+ 
+ Here is the list of the repositories :
+ - database : handling database scripts
+ - keycloak-service : handling authentication
+ - frontend-service : interface of the app
+ - kafka-service : handling kafka pipeline
+ - recruiting-service : handling rates of employee/employers for an offer
+ - offer-service : handling all the offers
+ - recommendation-service : handling the recommendation system
+ - user-service : handling the users (employee and employers)
+ - gateway-service : handling the requests from the user to right microservices (proxy)
 
-## 🚥 Deployment management
+## 🚥 Deployment
 
 To deploy our application, we will use a private cluster from a server of our school (using Dokku).
 Each microservice and each module will be build and run in a single container. 
