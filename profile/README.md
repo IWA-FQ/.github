@@ -2,6 +2,8 @@
 
 ## 💡 Main topic
 
+Hi everyone 🖐 let's see how all of this works !
+
 This organization was created to do a school Project in the last of a 5-years studying computer science engineering (Polytech Montpellier, France).
 
 The goal of this project is to create a Linkedin-like application using a microservices architecture. 
