@@ -47,8 +47,10 @@ Each git repository will have 3 main branches :
 
 To deploy our application, we will use a private cluster from a server of our school (using Dokku).
 Each microservice and each module will be build and run in a single container. 
-Only the frontend and the gateway microservice containers will be exposed to external requests (internet).
+Only the gateway microservice container will be exposed to external requests (internet).
 The containers will communicate together using an internal network.
+
+![cluster-v1](https://user-images.githubusercontent.com/71871590/205256612-0850a82f-80ba-4221-8232-0f07d23332f4.png)
 
 ## 👊 Your turn !
 
