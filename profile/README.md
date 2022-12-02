@@ -21,8 +21,6 @@ In order to do this, we will use :
 - Spring Boot to implement the microservices logic (backend)
 - ReactJS to implement the frontend
 - Gradle to handle the dependencies and the build system
-- Spring Mock MVC to implement the tests
-- Keycloak to handle the authentication (O'Auth2 protocol)
 - PostgreSQL to store our data
 - Kafka to use pipeline and handle the recommendation system storage
 - Docker to handle the containers of the microservices, database and modules
